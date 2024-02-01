@@ -13,7 +13,7 @@ public class ModItemGroups {
     public static final ItemGroup SIMPLEXITY_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Simplexity.ModID, "simplexity"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.simplexity"))
-                    .icon(()  -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+                    .icon(()  -> new ItemStack(ModItems.ICON)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.PHONE);
                     }).build());

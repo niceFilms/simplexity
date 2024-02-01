@@ -2,14 +2,15 @@
 	"schemaVersion": 1,
 	"id": "simplexity",
 	"version": "${version}",
-	"name": "simplexity",
+	"name": "Simplexity",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"@niceEli",
+		"@PogBoy2008"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://niceEli.Tech/",
+		"sources": "https://github.com/niceFilms/simplexity"
 	},
 	"license": "GPL3",
 	"icon": "assets/simplexity/icon.png",

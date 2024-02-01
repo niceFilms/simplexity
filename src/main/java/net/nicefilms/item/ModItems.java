@@ -19,9 +19,7 @@ public class ModItems {
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
-        // You Need To Add All Your Items Here Too
-        entries.add(RUBY);
-        entries.add(PHONE);
+        // Add stuff here if you want to add them to ingredients group
     }
 
     // ITEM Init Functions

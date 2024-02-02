@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "simplexity:block/cat_block"
+    }
+  }
+}

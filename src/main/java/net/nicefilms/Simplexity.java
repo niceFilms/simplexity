@@ -2,6 +2,7 @@ package net.nicefilms;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.nicefilms.blocks.ModBlocks;
 import net.nicefilms.item.ModItemGroups;
 import net.nicefilms.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class Simplexity implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

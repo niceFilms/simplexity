@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.nicefilms.Simplexity;
+import net.nicefilms.blocks.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup SIMPLEXITY_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -16,6 +17,7 @@ public class ModItemGroups {
                     .icon(()  -> new ItemStack(ModItems.ICON)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.PHONE);
+                        entries.add(ModBlocks.CAT_BLOCK);
                     }).build());
 
 

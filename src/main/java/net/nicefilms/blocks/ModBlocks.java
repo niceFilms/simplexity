@@ -13,8 +13,8 @@ import net.minecraft.util.Identifier;
 import net.nicefilms.Simplexity;
 
 public class ModBlocks {
-   public static final Block CAT_BLOCK = registerBlock("cat_block",
-           new Block(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK).luminance(9)));
+    public static final Block CAT_BLOCK = registerBlock("cat_block",
+        new Block(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK).luminance(9).jumpVelocityMultiplier(10)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -23,7 +23,7 @@ public class ModBlocks {
 
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, new Identifier(Simplexity.ModID, name),
-        new BlockItem(block, new FabricItemSettings()));
+            new BlockItem(block, new FabricItemSettings()));
     }
     public static void registerModBlocks(){
         Simplexity.LOGGER.info("Registering ModBlocks for" + Simplexity.FriendlyModID);

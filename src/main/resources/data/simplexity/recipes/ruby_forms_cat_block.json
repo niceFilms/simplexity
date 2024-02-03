@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "simplexity:ruby"
+    },
+    "S": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "simplexity:cat_block"
+  }
+}

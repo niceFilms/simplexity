@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": "1",
+  "ingredients": {
+    "item": "minecraft:stone"
+  },
+  "result": "simplexity:cat_block"
+}

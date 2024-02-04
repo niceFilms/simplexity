@@ -17,6 +17,8 @@ public class ModItems {
     public static final Item ICON = registerItem("simplexity", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item PHONE = registerItem("phone", new Item(new FabricItemSettings()));
+    public static final Item CORRUPTEDEYE = registerItem("corrupted_eye", new Item(new FabricItemSettings()));
+
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){

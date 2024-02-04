@@ -15,9 +15,8 @@ public class ModItemGroups {
             new Identifier(Simplexity.ModID, "simplexity"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.simplexity"))
                     .icon(()  -> new ItemStack(ModItems.ICON)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.RUBY);
-                        entries.add(ModItems.PHONE);
-                        entries.add(ModBlocks.CAT_BLOCK);
+                        entries.add(ModItems.CORRUPTEDEYE);
+                        entries.add(ModBlocks.VOIDSTONE);
                     }).build());
 
 

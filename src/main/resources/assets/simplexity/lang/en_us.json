@@ -1,8 +1,10 @@
 {
   "item.simplexity.ruby": "Ruby",
   "item.simplexity.phone": "iPhone",
+  "item.simplexity.corrupted_eye": "Corrupted Eye of Ender",
 
   "block.simplexity.cat_block": "Cat Block",
+  "block.simplexity.voidstone": "Voidstone",
 
   "itemgroup.simplexity": "Simplexity"
 }

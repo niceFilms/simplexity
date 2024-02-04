@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "simplexity:item/corrupted_eyes"
+    "layer0": "simplexity:item/corrupted_eye"
   }
 }

@@ -16,7 +16,7 @@ public class ModBlocks {
     public static final Block CAT_BLOCK = registerBlock("cat_block",
         new Block(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK).luminance(9).jumpVelocityMultiplier(10)));
     public static final Block VOIDSTONE = registerBlock("voidstone",
-        new Block(FabricBlockSettings.copyOf(Blocks.END_STONE).notSolid().hardness(-1)));
+        new Block(FabricBlockSettings.copyOf(Blocks.END_STONE).notSolid().hardness(-1).resistance(4000000)));
 
 
     private static Block registerBlock(String name, Block block){

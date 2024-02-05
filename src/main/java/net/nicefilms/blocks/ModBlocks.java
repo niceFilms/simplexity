@@ -18,6 +18,9 @@ public class ModBlocks {
     public static final Block VOIDSTONE = registerBlock("voidstone",
         new Block(FabricBlockSettings.copyOf(Blocks.END_STONE).notSolid().hardness(-1).resistance(4000000)));
 
+    public static final Block CORRUPTED_ORE = registerBlock("corrupted_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE).notSolid().hardness(50).resistance(4000000).luminance(14)));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

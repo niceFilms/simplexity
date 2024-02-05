@@ -2,9 +2,13 @@
   "item.simplexity.ruby": "Ruby",
   "item.simplexity.phone": "iPhone",
   "item.simplexity.corrupted_eye": "Corrupted Eye of Ender",
+  "item.simplexity.corrupted_catalyst": "Corrupted Catalyst",
+
 
   "block.simplexity.cat_block": "Cat Block",
   "block.simplexity.voidstone": "Voidstone",
+  "block.simplexity.corrupted_ore": "Corrupted Ore",
+
 
   "itemgroup.simplexity": "Simplexity"
 }

@@ -17,6 +17,9 @@ public class ModItemGroups {
                     .icon(()  -> new ItemStack(ModItems.ICON)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CORRUPTEDEYE);
                         entries.add(ModBlocks.VOIDSTONE);
+                        entries.add(ModBlocks.CORRUPTED_ORE);
+                        entries.add(ModItems.CORRUPTEDCATALYST);
+
                     }).build());
 
 
